@@ -71,12 +71,12 @@ export default function Flashcards() {
           }`}
         >
           {/* Front */}
-          <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-white p-6 text-xl font-medium shadow-xl [backface-visibility:hidden]">
+          <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-white p-6 text-xl text-black font-medium shadow-xl [backface-visibility:hidden]">
             {cards[index].question}
           </div>
 
           {/* Back */}
-          <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-gray-100 p-6 text-lg shadow-xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
+          <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-gray-100 p-6 text-lg text-black shadow-xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
             {cards[index].answer}
           </div>
         </div>
