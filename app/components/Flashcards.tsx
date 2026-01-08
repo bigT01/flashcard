@@ -41,7 +41,22 @@ const cards = [
   { question: "glimpse", answer: "случайно заметить" },
   { question: "care for and nurture", answer: "заботиться и воспитывать" },
   { question: "care for and maintain", answer: "уход и поддержание" },
-  { question: "determining", answer: "определение" }
+  { question: "determining", answer: "определение" },
+  { question: "retrieve", answer: "забрать" },
+  { question: "rugged", answer: "прочный" },
+  { question: "resemblance", answer: "сходство" },
+  { question: "exhibit", answer: "выставка" },
+  { question: "fellow", answer: "парень" },
+  { question: "tossing", answer: "подбрасывание" },
+  { question: "dreadful", answer: "ужасный" },
+  { question: "languidly", answer: "вяло" },
+  { question: "sought", answer: "искал" },
+  { question: "lids", answer: "крышки" },
+  { question: "upon", answer: "на" },
+  { question: "linger", answer: "задерживаться" },
+  { question: "comely", answer: "привлекательный" },
+  { question: "gracious", answer: "любезный" },
+  { question: "wildcard", answer: "подстановочный знак" }
 ];
 
 export default function Flashcards() {

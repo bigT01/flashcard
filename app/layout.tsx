@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Flashcards",
   description: "Flashcards app",
+  
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
